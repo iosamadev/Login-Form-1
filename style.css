@@ -54,7 +54,9 @@ body {
     color: #fff;
     font-size: 16px;
 }
-
+.wrapper .input-box input::focus {
+    outline:none;
+}
 .wrapper .input-box input::placeholder {
     color: #fff;
 }
